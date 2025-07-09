@@ -35,13 +35,13 @@ Audits Azure managed disks to verify they're properly configured with `AllowPriv
 ## Sample Output
 
 ```
-🔍 Verifying disk access configuration for RG-LOL-NP2-ITN-CAT...
+🔍 Verifying disk access configuration for RG-NYAN-CAT-WEU-01...
 ==========================================
-Expected Disk Access ID: /subscriptions/.../diskaccess-lol-cat
+Expected Disk Access ID: /subscriptions/.../diskaccess-nyan-cat
 
-🦙 Checking VM: vm-lol-cat-ita-auth-PI-01
-  OS Disk: vm-lol-cat-ita-auth-PI-01_OsDisk_1_52629a9f...   ✅ Private + Correct Access
-  Data Disk: vm-lol-cat-ita-auth-PI-01_disk2_5562e8d0...   ✅ Private + Correct Access
+🦙 Checking VM: vm-nyan-cat-weu-01
+  OS Disk: vm-nyan-cat-weu-01_OsDisk_1_52629a9f...   ✅ Private + Correct Access
+  Data Disk: vm-nyan-cat-weu-01_disk2_5562e8d0...   ✅ Private + Correct Access
 
 ==========================================
 📊 FINAL TALLY:
